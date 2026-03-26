@@ -1,11 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mood Cafe</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Le Café Numérique — Accueil</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+
+  <!-- ====== NAVIGATION ====== -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">
+      <div class="nav-logo-icon">CN</div>
+      <span class="nav-logo-text">Le Café <span>Numérique</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Accueil</a></li>
+      <li><a href="menu.html">La Carte</a></li>
+      <li><a href="apropos.html">À Propos</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ====== HERO ====== -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+
+    <div class="hero-tag fade-up">Ouvert 7j/7 — Paris, 11e arrondissement</div>
+
+    <h1 class="fade-up fade-up-1">
+      Le Café<br /><em>Numérique</em>
+    </h1>
+
+    <p class="hero-slogan fade-up fade-up-2">
+      Où chaque tasse est une connexion, chaque pixel une saveur.
+    </p>
+
+    <div class="hero-cta fade-up fade-up-3">
+      <a href="menu.html" class="btn btn-primary">Voir la carte</a>
+      <a href="contact.html" class="btn btn-outline">Nous trouver</a>
+    </div>
+
+    <div class="hero-scroll fade-up fade-up-4">
+      <div class="hero-scroll-line"></div>
+      <span>Découvrir</span>
+    </div>
+  </section>
+
+  <!-- ====== FEATURES ====== -->
+  <div class="features">
+    <div class="feature">
+      <div class="feature-icon">☕</div>
+      <h3>Café d'exception</h3>
+      <p>Grains sélectionnés en single origin, torréfaction artisanale, extractions calibrées au dixième de gramme.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">⚡</div>
+      <h3>Espace de travail</h3>
+      <p>Wifi gigabit, prises et USB à chaque place, ambiance sonore travaillée pour votre concentration.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">🎨</div>
+      <h3>Événements & meetups</h3>
+      <p>Hackathons, ateliers code, expositions digitales — une communauté qui crée ensemble.</p>
+    </div>
+  </div>
+
+  <!-- ====== CTA SECTION ====== -->
+  <section class="section" style="text-align:center; border-bottom:1px solid var(--border);">
+    <div class="section-label">Notre engagement</div>
+    <h2 class="section-title" style="max-width:600px; margin:0 auto 1.5rem;">
+      Un café pensé pour les esprits créatifs et connectés
+    </h2>
+    <div class="divider" style="margin:0 auto 2rem;"></div>
+    <p style="color:var(--muted); max-width:560px; margin:0 auto 2.5rem; font-size:.95rem;">
+      Au Café Numérique, l'art du café rencontre la culture digitale. Chaque détail — de l'arôme du matin à la lumière de l'après-midi — est pensé pour vous inspirer.
+    </p>
+    <a href="apropos.html" class="btn btn-outline">Notre histoire</a>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer>
+    <div class="footer-logo">Le Café <span>Numérique</span></div>
+    <ul class="footer-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="menu.html">La Carte</a></li>
+      <li><a href="apropos.html">À Propos</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <span class="footer-copy">© 2025 Le Café Numérique. Tous droits réservés.</span>
+  </footer>
+
 </body>
 </html>
